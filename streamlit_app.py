@@ -13,5 +13,9 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-# Set page config
-st.set_page_config(page_title="Vengateswaran Arunachalam's Resume", layout="wide")
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
+
+df
